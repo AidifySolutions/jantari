@@ -1,0 +1,60 @@
+name: jantari
+description: Room Booking Diary.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc:
+  flutter_secure_storage: ^7.0.1
+  equatable: ^2.0.3
+  http:
+  flutter_launcher_icons:
+    git:
+      url: https://github.com/Davenchy/flutter_launcher_icons.git
+      ref: fixMinSdkParseFlutter2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_svg:
+  date_time_picker: ^2.1.0
+  pin_code_fields:
+  mask_text_input_formatter: ^2.1.0
+  file_picker: ^5.1.0
+  image_picker: ^0.8.6
+  intl_phone_field: ^3.1.0
+  table_calendar: ^3.0.7
+  dotted_line: ^3.1.0
+  responsive_framework: ^0.2.0
+  sizer: ^2.0.15
+  scroll_to_index: ^3.0.1
+  toast: ^0.3.0
+  flutter_hooks: 0.18.6
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path_android: "assets/app_icon.jpg"
+  ios: true
+  image_path_ios: "assets/app_icon.jpg"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/app_icon.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/app_icon.jpg
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-Medium.ttf
+        - asset: fonts/OpenSans-Bold.ttf
